@@ -130,6 +130,10 @@ main h1  {
     object-fit: cover;
 }
 
+.food-items:hover  {
+    transform: scale(1.05);
+}
+
 .food-item-content  {
     padding: 16px;
     text-align: center;
@@ -144,6 +148,7 @@ main h1  {
     color: rgb(29, 26, 24);
     border-radius: 4px;
     padding: 8px 24px;
+    transition: background-color 0.5s ease-out;
 }
 
 .btn:hover  {
